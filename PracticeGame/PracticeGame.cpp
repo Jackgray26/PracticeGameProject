@@ -21,5 +21,7 @@ int main()
 	unsigned int playersNumber{};
 	cin >> playersNumber;
 
-	cout << "You have guessed: " << playersNumber << " "
+	cout << "You have guessed: " << playersNumber << " The actual number was: " << numberToGuess << endl;
+
+	return 0;
 }
